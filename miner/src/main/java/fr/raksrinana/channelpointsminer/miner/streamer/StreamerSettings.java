@@ -59,5 +59,6 @@ public class StreamerSettings{
 		index = origin.index;
 		predictions = new PredictionSettings(origin.predictions);
 		priorities.addAll(origin.priorities);
+		claimMoments = origin.claimMoments;
 	}
 }
